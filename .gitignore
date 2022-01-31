@@ -1,1 +1,3 @@
 node_modules
+
+'mongodb+srv://dimas:sempak@cluster0.achcn.mongodb.net/shop?retryWrites=true&w=majority'

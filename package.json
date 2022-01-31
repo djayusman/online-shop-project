@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-complete-guide",
+  "name": "online-shop-project",
   "version": "1.0.0",
   "description": "Complete Node.js Guide",
   "main": "app.js",
@@ -14,13 +14,22 @@
     "nodemon": "^1.18.3"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "body-parser": "^1.18.3",
-    "ejs": "^3.1.6",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.0.3",
+    "csurf": "^1.11.0",
+    "ejs": "^2.6.1",
     "express": "^4.16.3",
-    "express-handlebars": "^3.0.2",
-    "mongodb": "^4.2.2",
-    "mysql2": "^2.3.3",
-    "pug": "^3.0.2",
-    "sequelize": "^6.12.0-beta.3"
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "express-validator": "^6.14.0",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.2.17",
+    "mysql2": "^1.6.1",
+    "nodemailer": "^6.7.2",
+    "nodemailer-sendinblue-transport": "^1.2.3",
+    "pug": "^2.0.3",
+    "sequelize": "^5.0.0-beta.11"
   }
 }
